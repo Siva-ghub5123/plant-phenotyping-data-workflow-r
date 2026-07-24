@@ -1,0 +1,38 @@
+---
+title: "Plant Phenotyping Data Workflow"
+author: "Mokkala Siva Prasad"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## Purpose
+
+This report demonstrates a reproducible workflow for synthetic plant phenotyping trait data. The goal is to show how raw trait observations can be checked, summarized, and explored using genotype means, trait correlations, PCA, and clustering.
+
+## Run analysis
+
+```{r}
+source("../scripts/analyze_phenotyping_traits.R")
+```
+
+## Outputs
+
+The main script creates:
+
+- cleaned phenotyping data
+- genotype means
+- correlation matrix
+- PCA scores and loadings
+- phenotype clusters
+- ranked phenotype table
+- correlation heatmap
+- PCA biplot
+- dendrogram
+- phenotype group profile plot
+
+## Limitations
+
+The dataset is synthetic and does not represent confidential or unpublished research data. The workflow is intended as a portfolio demonstration of reproducible data organization and exploratory analysis.
