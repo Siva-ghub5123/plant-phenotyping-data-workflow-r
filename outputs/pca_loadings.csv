@@ -1,0 +1,10 @@
+"trait","PC1","PC2","PC3"
+"plant_height_cm",0.437,-0.081,-0.15
+"canopy_width_cm",0.439,-0.099,-0.034
+"leaf_area_index",0.428,-0.093,0.274
+"spad_chlorophyll",-0.206,-0.46,-0.429
+"ndvi_proxy",-0.123,-0.509,-0.381
+"days_to_maturity",0.409,0.004,-0.494
+"marketable_yield_t_ha",0.246,-0.433,0.195
+"disease_score_1_9",0.381,0.248,-0.125
+"vigor_score_1_9",0.057,-0.505,0.524
